@@ -32,9 +32,10 @@
 
       .column {
         float: left;
-        width: 50%;
+        width: 35%;
         padding-left:20px;
         padding-right: 20px;
+        max-width: 500px;
       }
       .row:after {
         content: "";
@@ -44,15 +45,7 @@
     </style>
   </head>
   <body>
-    <div> <!-- challenge 1 -->
-      <h2>Challenge 1: Table of Contents</h2>
-      <ul>
-        <li><a style="font-size:14pt" href="#chess">Build a Chessboard</a></li>
-        <li><a style="font-size:14pt" href="#form">Create a Form</a></li>
-        <li><a style="font-size:14pt" href="#google">A Google Search Page</a></li>
-        <li><a style="font-size:14pt" href="#access">Accessibility Concerns</a></li>
-      </ul>
-    </div>
+    <h1>Part 1</h1>
     <div> <!-- challenge 2 -->
       <h2 id="chess">Challenge 2: Build a Chessboard</h2>
       <p>
@@ -141,24 +134,6 @@
         </tr>
       </table>
     </div>
-    <div> <!-- challenge 3 -->
-      <h2 id="form">Challenge 3: Create a Form</h2>
-      <form>
-        <label style="font-size:14pt;color:#6e000f" for="name"><b>What is your name?</b></label><br>
-        <input type="text" id="name" name="fullname" value="enter full name"><br>
-        <label style="font-size:14pt;color:#6e000f"><b>What is your favorite color?</b></label><br>
-        <input type="radio" id="red" name="fav_color" value="RED">
-        <label for="red">red</label><br>
-        <input type="radio" id="redV2" name="fav_color" value="REDV2">
-        <label for="redV2">also red</label><br>
-        <input type="radio" id="redV3" name="fav_color" value="REDV3">
-        <label for="redV3">those are the only options, this vote wil count for red</label><br>
-        <label style="font-size:14pt;color:#6e000f" for="redLove"><b>Please write a few sentences about why you love red.</b></label><br>
-        <input type="text" id="redLove" name="whyRed" value="" maxlength="250" style="width:390px; height: 90px; border: 1px solid #999999; padding: 5px;}">
-        <br>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
     <div> <!-- challenge 4 -->
       <h2 id="google">Challenge 4: A Google Search Page</h2>
       <p style="color:grey">About 3,400,000,000 results (0.86 seconds)</p>
@@ -172,29 +147,15 @@
           <p style="color:grey">Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
           <a href="https://www.colorado.edu/atlas/academics">Academics</a>
           <p style="color:grey">Granted through the College of Engineering and Applied ...</p>
+          <a style="font-size:12pt;margin-bottom:10px;" href="https://www.google.com/search?q=ATLAS+Institute+site:colorado.edu&client=firefox-b-1-d&sxsrf=APq-WBs0uMw1apyEc_TEEVMgKoht28_32Q:1643945419769&sa=X&ved=2ahUKEwjMtZn2jeX1AhWKITQIHUvpB6YQrAN6BAgTEAE&biw=852&bih=792&dpr=2">More results from colorad.edu</a>
         </div>
         <div class="column">
           <a href="https://www.colorado.edu/atlas/faculty">Faculty</a>
           <p style="color:grey">Lecturer, co-chair Board of Advisors • DESIGN, AR/VR ...</p>
           <a href="https://www.colorado.edu/atlas/about-atlas">About</a>
           <p style="color:grey">ATLAS is an interdisciplinary institute for radical creativity and ...</p>
-          <a style="font-size:12pt" href="https://www.google.com/search?q=ATLAS+Institute+site:colorado.edu&client=firefox-b-1-d&sxsrf=APq-WBs0uMw1apyEc_TEEVMgKoht28_32Q:1643945419769&sa=X&ved=2ahUKEwjMtZn2jeX1AhWKITQIHUvpB6YQrAN6BAgTEAE&biw=852&bih=792&dpr=2">More results from colorad.edu</a>
         </div>
-      </div>
-
-<!--      <blockquote>
-        <a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a>
-        <p style="color:grey">Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
-        <a href="https://www.colorado.edu/atlas/academics">Academics</a>
-        <p style="color:grey">Granted through the College of Engineering and Applied ...</p>
-        <a href="https://www.colorado.edu/atlas/faculty">Faculty</a>
-        <p style="color:grey">Lecturer, co-chair Board of Advisors • DESIGN, AR/VR ...</p>
-        <a href="https://www.colorado.edu/atlas/about-atlas">About</a>
-        <p style="color:grey">ATLAS is an interdisciplinary institute for radical creativity and ...</p>
-        <a style="font-size:12pt" href="https://www.google.com/search?q=ATLAS+Institute+site:colorado.edu&client=firefox-b-1-d&sxsrf=APq-WBs0uMw1apyEc_TEEVMgKoht28_32Q:1643945419769&sa=X&ved=2ahUKEwjMtZn2jeX1AhWKITQIHUvpB6YQrAN6BAgTEAE&biw=852&bih=792&dpr=2">More results from colorad.edu</a>
-      </blockquote> -->
-
-
+      </div> <br>
       <a style="font-size:12pt;color:black;margin-bottom:0px" href="https://www.colorado.edu/innovate/atlas-institute">https://www.colorado.edu/innovate/atlas-institute > innovate > atlas-institute</a><br>
       <a href="https://www.colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - Univeristy of ...</a>
       <p style="color:grey">Resource that sponsors diverse interdisciplinary academic and research programs, challenging
@@ -216,6 +177,34 @@
       <a href="https://www.internationalaffairshouse.org/">Atlas Institute for International Affairs: Home</a>
       <p style="color: grey"><b>Atlas Institute</b> for International Affairs - The Harmony of Opposite Tensions.</p>
     </div>
+    <h1>Part 2</h1>
+    <div> <!-- challenge 1 -->
+      <h2>Challenge 1: Table of Contents</h2>
+      <ul>
+        <li><a style="font-size:14pt" href="#chess">Build a Chessboard</a></li>
+        <li><a style="font-size:14pt" href="#form">Create a Form</a></li>
+        <li><a style="font-size:14pt" href="#google">A Google Search Page</a></li>
+        <li><a style="font-size:14pt" href="#access">Accessibility Concerns</a></li>
+      </ul>
+    </div>
+    <div> <!-- challenge 3 -->
+      <h2 id="form">Challenge 3: Create a Form</h2>
+      <form>
+        <label style="font-size:14pt;color:#6e000f" for="name"><b>What is your name?</b></label><br>
+        <input type="text" id="name" name="fullname" value="enter full name"><br>
+        <label style="font-size:14pt;color:#6e000f"><b>What is your favorite color?</b></label><br>
+        <input type="radio" id="red" name="fav_color" value="RED">
+        <label for="red">red</label><br>
+        <input type="radio" id="redV2" name="fav_color" value="REDV2">
+        <label for="redV2">also red</label><br>
+        <input type="radio" id="redV3" name="fav_color" value="REDV3">
+        <label for="redV3">those are the only options, this vote wil count for red</label><br>
+        <label style="font-size:14pt;color:#6e000f" for="redLove"><b>Please write a few sentences about why you love red.</b></label><br>
+        <input type="text" id="redLove" name="whyRed" value="" maxlength="250" style="width:390px; height: 90px; border: 1px solid #999999; padding: 5px;}">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
     <div> <!-- challenge 5 -->
       <h2 id="access">Challenge 5: Accessibility Concerns</h2>
       <p>
@@ -226,5 +215,6 @@
         table entries represent.
       </p>
     </div>
+    <h1>Part 3</h1>
   </body>
 </html>
