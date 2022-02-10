@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 4</title>
+    <style>
+      body{
+        margin-left: 50px;
+        margin-top: 25px;
+      }
+      a{
+        font-size: 18pt;
+        padding-bottom: 0px;
+      }
+      a:link{
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      a:active{
+        color: blue;
+      }
+      p{
+        margin-top: 2px;
+        max-width: 550px;
+      }
+      {
+        box-sizing: border-box;
+      }
+
+
+      .column {
+        float: left;
+        width: 50%;
+        padding-left:20px;
+        padding-right: 20px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div> <!-- challenge 1 -->
+      <h2>Challenge 1: Table of Contents</h2>
+      <ul>
+        <li><a style="font-size:14pt" href="#chess">Build a Chessboard</a></li>
+        <li><a style="font-size:14pt" href="#form">Create a Form</a></li>
+        <li><a style="font-size:14pt" href="#google">A Google Search Page</a></li>
+        <li><a style="font-size:14pt" href="#access">Accessibility Concerns</a></li>
+      </ul>
+    </div>
+    <div> <!-- challenge 2 -->
+      <h2 id="chess">Challenge 2: Build a Chessboard</h2>
+      <p>
+        This is the end-game from Magnus Carlsen where he played a "perfect game".
+      </p>
+      <table style="border:5px solid #ad6b00">
+        <tr>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px;text-align:center;font-size:20pt">&#9818;</td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px;text-align:center;font-size:20pt;color:white">&#9815;</td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#ad6b00;height:50px;width:50px;text-align:center;font-size:20pt;color:white">	&#9812;</td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px;text-align:center;font-size:20pt">&#9823;</td>
+        </tr>
+        <tr>
+          <td style="background-color:#ffd187;height:50px;width:50px;text-align:center;font-size:20pt;color:white">	&#9817;</td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px;text-align:center;font-size:20pt">&#9823;</td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px;text-align:center;font-size:20pt;color:white">	&#9817;</td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px;text-align:center;font-size:20pt">	&#9822;</td>
+          <td style="background-color:#ad6b00;height:50px;width:50px;text-align:center;font-size:20pt;color:white">	&#9817;</td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+        </tr>
+        <tr>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+          <td style="background-color:#ad6b00;height:50px;width:50px"></td>
+          <td style="background-color:#ffd187;height:50px;width:50px"></td>
+        </tr>
+      </table>
+    </div>
+    <div> <!-- challenge 3 -->
+      <h2 id="form">Challenge 3: Create a Form</h2>
+      <form>
+        <label style="font-size:14pt;color:#6e000f" for="name"><b>What is your name?</b></label><br>
+        <input type="text" id="name" name="fullname" value="enter full name"><br>
+        <label style="font-size:14pt;color:#6e000f"><b>What is your favorite color?</b></label><br>
+        <input type="radio" id="red" name="fav_color" value="RED">
+        <label for="red">red</label><br>
+        <input type="radio" id="redV2" name="fav_color" value="REDV2">
+        <label for="redV2">also red</label><br>
+        <input type="radio" id="redV3" name="fav_color" value="REDV3">
+        <label for="redV3">those are the only options, this vote wil count for red</label><br>
+        <label style="font-size:14pt;color:#6e000f" for="redLove"><b>Please write a few sentences about why you love red.</b></label><br>
+        <input type="text" id="redLove" name="whyRed" value="" maxlength="250" style="width:390px; height: 90px; border: 1px solid #999999; padding: 5px;}">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div> <!-- challenge 4 -->
+      <h2 id="google">Challenge 4: A Google Search Page</h2>
+      <p style="color:grey">About 3,400,000,000 results (0.86 seconds)</p>
+      <a style="font-size:12pt;color:black;margin-bottom:0px" href="https://www.colorado.edu/atlas/">https://www.colorado.edu/atlas/ > atlas</a><br>
+      <a style="margin-top:0px"href="https://www.colorado.edu/atlas/">ATLAS Institute | University of Colorado Boulder</a>
+      <p style="color:grey"><b>ATLAS</b> is an interdisciplinary <b>institute</b> for radical creativity and invention. We transform
+        ingenious ideas into reality through research, ...</p>
+      <div class="row">
+        <div class="column">
+          <a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a>
+          <p style="color:grey">Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
+          <a href="https://www.colorado.edu/atlas/academics">Academics</a>
+          <p style="color:grey">Granted through the College of Engineering and Applied ...</p>
+        </div>
+        <div class="column">
+          <a href="https://www.colorado.edu/atlas/faculty">Faculty</a>
+          <p style="color:grey">Lecturer, co-chair Board of Advisors • DESIGN, AR/VR ...</p>
+          <a href="https://www.colorado.edu/atlas/about-atlas">About</a>
+          <p style="color:grey">ATLAS is an interdisciplinary institute for radical creativity and ...</p>
+          <a style="font-size:12pt" href="https://www.google.com/search?q=ATLAS+Institute+site:colorado.edu&client=firefox-b-1-d&sxsrf=APq-WBs0uMw1apyEc_TEEVMgKoht28_32Q:1643945419769&sa=X&ved=2ahUKEwjMtZn2jeX1AhWKITQIHUvpB6YQrAN6BAgTEAE&biw=852&bih=792&dpr=2">More results from colorad.edu</a>
+        </div>
+      </div>
+
+<!--      <blockquote>
+        <a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a>
+        <p style="color:grey">Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
+        <a href="https://www.colorado.edu/atlas/academics">Academics</a>
+        <p style="color:grey">Granted through the College of Engineering and Applied ...</p>
+        <a href="https://www.colorado.edu/atlas/faculty">Faculty</a>
+        <p style="color:grey">Lecturer, co-chair Board of Advisors • DESIGN, AR/VR ...</p>
+        <a href="https://www.colorado.edu/atlas/about-atlas">About</a>
+        <p style="color:grey">ATLAS is an interdisciplinary institute for radical creativity and ...</p>
+        <a style="font-size:12pt" href="https://www.google.com/search?q=ATLAS+Institute+site:colorado.edu&client=firefox-b-1-d&sxsrf=APq-WBs0uMw1apyEc_TEEVMgKoht28_32Q:1643945419769&sa=X&ved=2ahUKEwjMtZn2jeX1AhWKITQIHUvpB6YQrAN6BAgTEAE&biw=852&bih=792&dpr=2">More results from colorad.edu</a>
+      </blockquote> -->
+
+
+      <a style="font-size:12pt;color:black;margin-bottom:0px" href="https://www.colorado.edu/innovate/atlas-institute">https://www.colorado.edu/innovate/atlas-institute > innovate > atlas-institute</a><br>
+      <a href="https://www.colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - Univeristy of ...</a>
+      <p style="color:grey">Resource that sponsors diverse interdisciplinary academic and research programs, challenging
+        community members to explore, innovate, create and design well ...</p>
+      <a style="font-size:12pt;color:black;margin-bottom:0px" href="https://www.linkedin.com/school/atlas-cu-boulder/">https://www.linkedin.com/school/atlas-cu-boulder/ > school > atlas-cu-boulder</a><br>
+      <a href="https://www.linkedin.com/school/atlas-cu-boulder/">ATLAS Institute at CU Boulder Employees, Location, Alumni</a>
+      <p style="color:grey">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas
+        become reality. · <b>ATLAS Institute</b> at CU Boulder. View all open ...</p>
+      <a style="font-size:12pt;color:black;margin-bottom:0px" href="https://typemoon.fandom.com/wiki/Atlas">https://typemoon.fandom.com/wiki/Atlas > wiki > Atlas</a><br>
+      <a style="padding:0px;margin-top:0px;"href="https://typemoon.fandom.com/wiki/Atlas">Atlas | TYPE-MOON Wiki | Fandom</a>
+      <p style="color:grey">It is an institute focused on the study and development of alchemy, but its members
+        broke off from the mainstream modern practice of alchemy that originated in ...<br>
+        <a style="font-size:12pt" href="https://typemoon.fandom.com/wiki/Atlas#External_Relationships">External Relationships</a> ·
+        <a style="font-size:12pt" href="https://typemoon.fandom.com/wiki/Atlas#Alchemist_of_Atlas">Alchemist of Atlas</a> ·
+        <a style="font-size:12pt" href="https://typemoon.fandom.com/wiki/Atlas#Activities">Activities</a> ·
+        <a style="font-size:12pt" href="https://typemoon.fandom.com/wiki/Atlas#Headquarters">Headquarters</a>
+      </p>
+      <a style="font-size:12pt;color:black;margin-bottom:0px" href="https://www.internationalaffairshouse.org/">https://www.internationalaffairshouse.org/</a><br>
+      <a href="https://www.internationalaffairshouse.org/">Atlas Institute for International Affairs: Home</a>
+      <p style="color: grey"><b>Atlas Institute</b> for International Affairs - The Harmony of Opposite Tensions.</p>
+    </div>
+    <div> <!-- challenge 5 -->
+      <h2 id="access">Challenge 5: Accessibility Concerns</h2>
+      <p>
+        There are a few aspects of challenge 2 (build a chessboard) that hinder its accessibility.
+        First, the table that makes the board does not have any labels for its columns or rows. It also
+        is filled with only 9 entries, which are in unique positions. This then leaves lot of empty
+        cells with no information. Even further, there is no alternative text to describe what the
+        table entries represent.
+      </p>
+    </div>
+  </body>
+</html>
