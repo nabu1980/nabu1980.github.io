@@ -1,3 +1,7 @@
+h1, h2 {
+  font-family: "Times New Roman", Times, san-serif;
+}
+
 h1 {
   font-size: 48pt;
   margin-left: 50px;
@@ -9,13 +13,23 @@ hr {
   border-top: 5px solid black;
 }
 
-.navigation {
-  font-size: 14pt;
+h2 {
+  color: #040347;
+  margin-left: 15px;
+  font-size: 24pt;
 }
 
 ul {
   list-style-type: none;
   padding-left: 20px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding-right: 30px;
+  padding-left:30px;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
 }
 
 a:link {
@@ -25,4 +39,15 @@ a:link {
 
 a:hover {
   text-decoration: underline;
+}
+
+p{
+  margin-left: 15px;
+  max-width: 600px;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+img {
+  width: 240px;
+  margin-left: 15px;
 }
