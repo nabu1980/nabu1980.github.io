@@ -42,6 +42,11 @@ a:hover {
   text-decoration: underline;
 }
 
+a:visited {
+  color: #040347;
+  text-decoration: none;
+}
+
 p{
   margin-left: 15px;
   max-width: 600px;
