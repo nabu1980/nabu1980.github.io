@@ -1,0 +1,28 @@
+h1 {
+  font-size: 48pt;
+  margin-left: 50px;
+  padding-bottom: 0px;
+  color: #040347;
+}
+
+hr {
+  border-top: 5px solid black;
+}
+
+.navigation {
+  font-size: 14pt;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+a:link {
+  color: #42409e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
