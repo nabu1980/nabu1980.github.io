@@ -53,15 +53,15 @@
     font-family: "Open Sans", helvetica, Tahoma, sans-serif;
   }
   .header {
-    /* background-color: red; */
+    background-color: red;
   }
 
   .toc {
-    /* background-color: yellow; */
+    background-color: yellow;
   }
 
   .content{
-    /* background-color: green; */
+    background-color: green;
   }
 }
 
@@ -120,16 +120,15 @@
     text-decoration: none;
   }
   .header {
-    padding-top: 45px;
-    /* background-color: red; */
+    background-color: red;
     grid-column: 1 / 4;
   }
   .toc {
-    /* background-color: yellow; */
+    background-color: yellow;
     grid-row: 2 / 4;
   }
   .content{
-    /* background-color: green; */
+    background-color: green;
     grid-row: 2 / 4;
     grid-column: 2 / 4;
   }
