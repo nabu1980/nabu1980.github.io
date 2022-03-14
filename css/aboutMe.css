@@ -58,38 +58,32 @@
     justify-items: center;
   }
   .headImg{
-    /* background-color: purple; */
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
   .header {
-    /* background-color: red; */
     grid-column: 1 / 6;
     grid-row: 2 / 3;
   }
   .tocHome {
-    /* background-color: yellow; */
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     align-self: end;
     text-align: center;
   }
   .tocAbout {
-    /* background-color: yellow; */
     grid-row: 1 / 2;
     grid-column: 3 / 4;
     align-self: end;
     text-align: center;
   }
   .tocProj {
-    /* background-color: yellow; */
     grid-row: 1 / 2;
     grid-column: 4 / 5;
     align-self: end;
     text-align: center;
   }
   .tocContact {
-    /* background-color: yellow; */
     grid-row: 1 / 2;
     grid-column: 5 / 6;
     align-self: end;
@@ -109,7 +103,7 @@
   .container{
     display: grid;
     padding: 20px;
-    grid-template-rows: 2fr 40px 2fr;
+    grid-template-rows: 225px 40px 2fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: inherit;
     align-content: center;
@@ -128,6 +122,10 @@
   #headText {
     display: grid;
     align-items: end;
+  }
+  iframe{
+    width: 720px;
+    height: 800px;
   }
   h1, h2{
     font-family: Georgia, Didot, serif;
@@ -168,37 +166,30 @@
     text-decoration: none;
   }
   .headImg {
-    /* background-color: purple; */
     grid-column: 1 / 3;
     align-content: center;
   }
   .header {
-    /* background-color: red; */
     grid-column: 3 / 9;
     align-self: end;
   }
   .tocHome {
-    /* background-color: yellow; */
     grid-row: 2 / 3;
     grid-column: 1 / 3;
   }
   .tocAbout {
-    /* background-color: yellow; */
     grid-row: 2 / 3;
     grid-column: 3 / 5;
   }
   .tocProj {
-    /* background-color: yellow; */
     grid-row: 2 / 3;
     grid-column: 5 / 7;
   }
   .tocContact {
-    /* background-color: yellow; */
     grid-row: 2 / 3;
     grid-column: 7 / 9;
   }
   .content{
-    /* background-color: green; */
     margin-left: 75px;
     margin-right: 75px;
     grid-row: 3 / 4;
