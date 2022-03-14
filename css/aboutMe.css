@@ -194,5 +194,7 @@
     margin-right: 75px;
     grid-row: 3 / 4;
     grid-column: 1 / 9;
+    display: grid;
+    justify-content: center;
   }
 }
