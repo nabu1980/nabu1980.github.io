@@ -126,6 +126,9 @@
   .isRed {
     color: red;
   }
+  .isOn {
+    color: red;
+  }
   .container{
     display: grid;
     padding: 20px;
