@@ -1,3 +1,4 @@
+//  PROBLEM 1
 const employees = [
   {
     name: 'Sam',
@@ -23,6 +24,7 @@ const employees = [
 ];
 console.log('Problem 1: ', employees);
 
+//  PROBLEM 2
 const company = {
   companyName: 'Tech Stars',
   website: 'www.techstars.site',
@@ -30,6 +32,7 @@ const company = {
 };
 console.log('Problem 2: ', company);
 
+//  PROBLEM 3
 function addEmployee(employeeeName, dept, pos, sal, rse) {
   const newEmployee = {
     name: employeeeName,
@@ -44,6 +47,8 @@ function addEmployee(employeeeName, dept, pos, sal, rse) {
 addEmployee('Anna', 'Tech', 'Executive', 25600, false);
 console.log('Problem 3: ', employees);
 
+
+//  PROBLEM 4
 function calcSalaries(obj) {
   let total = 0;
   for(let i=0; i<obj.employees.length; i++) {
@@ -54,6 +59,8 @@ function calcSalaries(obj) {
 }
 console.log('Problem 4: ', calcSalaries(company));
 
+
+//  PROBLEM 5
 function giveRaise() {
   for(let i=0;i<employees.length;i++){
     if(employees[i].raise){
@@ -65,6 +72,8 @@ function giveRaise() {
 giveRaise();
 console.log('Problem 5: ', employees);
 
+
+//  PROBLEM 6
 const homeWorkers = ['Anna', 'Sam'];
 function setWFH() {
   for(let i=0;i<employees.length;i++){
