@@ -43,6 +43,7 @@ function createPost() {
 
 function deletePost(targetPost) {
   targetPost.parentElement.parentElement.remove();
+  alert("Congrats on getting that done!");
 };
 
 let editPost = (oldPost) => {

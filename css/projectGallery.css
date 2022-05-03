@@ -145,6 +145,9 @@
     justify-content: center;
     margin-top: 10px;
   }
+  #profile {
+    max-width: 175px;
+  }
   #headImg {
     display: grid;
     align-items: center;

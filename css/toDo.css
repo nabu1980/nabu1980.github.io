@@ -213,6 +213,7 @@
     grid-column:  2 / 10;
     display: flex;
     gap: 50px;
+    justify-content: center;
   }
   #posts {
     width: 400px;
